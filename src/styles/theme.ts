@@ -52,13 +52,14 @@ const theme = {
     'purple-light': '#d8ace9',
     purple: '#bb6bd9',
     'purple-dark': '#9b51e0',
+    'purple-led': '#eb05f7',
     'gradient-primary': '#0675ce',
     white: '#ffffff',
     'white-light': '#fff',
     'danger-light': '#FF6161',
   },
   fonts: {
-    primary: 'Inter, sans-serif',
+    primary: 'Barlow Condensed, sans-serif',
     secondary: 'Roboto, sans-serif',
   },
   breakpoints: {
