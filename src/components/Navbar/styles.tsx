@@ -9,8 +9,8 @@ export const Container = styled.div`
     flex-direction: column;
     align-items: center;
 
-    box-shadow: 5px 0px 20px 1px rgba(82, 0, 255, 0.9);
-    background: ${({ theme }) => theme.colors['black-100']};
+    /* box-shadow: 5px 0px 20px 1px rgba(82, 0, 255, 0.9);
+    background: ${({ theme }) => theme.colors['black-100']}; */
 
     position: fixed;
   }

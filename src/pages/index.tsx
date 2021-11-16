@@ -14,7 +14,7 @@ const Home = () => {
     <>
       <Navbar />
       <Container>
-          <Moon />
+         {/* <Moon /> */}
         <Universe>
               <Sun />
         </Universe>
@@ -25,7 +25,7 @@ const Home = () => {
             <br />
           </p>
           <p className="enfase">Front-End Develover</p>
-        </InicialApresentation>
+        </InicialApresentation> 
       </Container>
     </>
   );

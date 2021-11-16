@@ -4,6 +4,7 @@ export const Container = styled.div`
   width: 250px;
   height: 250px;
   border-radius: 50%;
+  position: absolute;
 
   background: linear-gradient(180deg, #ffc222, #c80e7f, #321347);;
 
