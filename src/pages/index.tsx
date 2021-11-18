@@ -1,10 +1,11 @@
 import { Container, Planet, Universe, Orb, Rocket, Star, InicialApresentation } from '../styles/home';
 
 import { FaSatellite, FaSpaceShuttle } from 'react-icons/fa';
-import BuracoNegro from 'buraco-negro.png';
+
 
 
 import Moon from '../components/Moon';
+import SvgPrime from '../components/SvgPrime';
 import Sun from '../components/Sun';
 import Navbar from '../components/Navbar';
 import About from './about';
@@ -14,17 +15,18 @@ const Home = () => {
     <>
       <Navbar />
       <Container>
-         {/* <Moon /> */}
+         {/* <Moon />
         <Universe>
               <Sun />
-        </Universe>
+        </Universe> */}
+        <SvgPrime />
         <InicialApresentation>
-          <p>Olá,</p>
+          {/* <p>Olá,</p>
           <p>
             Me Chamo Leandro da Silva
             <br />
           </p>
-          <p className="enfase">Front-End Develover</p>
+          <p className="enfase">Front-End Develover</p> */}
         </InicialApresentation> 
       </Container>
     </>
