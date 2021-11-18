@@ -17,8 +17,6 @@ function Navbar() {
   const Toggle = () => setIsOpen(!isOpen);
   const Close = () => setIsOpen(false);
 
-  console.log(isOpen);
-
   return (
     <Container>
       <div className={isOpen ? 'main-container' : ''} onClick={() => Close()} />

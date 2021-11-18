@@ -17,7 +17,7 @@ const App = ({ Component, pageProps }: AppProps) => {
         <meta name="viewport" content="initial-scale=1.0, width=device-width" />
         <meta property="og:title" content="nextjs" key="title" />
 
-        <title>next js</title>
+        <title>Portfolio Leandro da silva</title>
       </Head>
 
       <ThemeProvider theme={theme}>

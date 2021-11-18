@@ -1,22 +1,34 @@
-import { Container, Planet, InicialApresentation } from '../styles/home';
+import { Container, Planet, Universe, Orb, Rocket, Star, InicialApresentation } from '../styles/home';
 
+import { FaSatellite, FaSpaceShuttle } from 'react-icons/fa';
+
+
+
+import Moon from '../components/Moon';
+import SvgPrime from '../components/SvgPrime';
+import Sun from '../components/Sun';
 import Navbar from '../components/Navbar';
 import About from './about';
-
-
 
 const Home = () => {
   return (
     <>
-    <Navbar />
-    <Container>
-      <Planet />
-      <InicialApresentation>
-        <p>Olá,</p>
-        <p>Me Chamo Leandro da Silva<br /></p> 
-        <p className="enfase">Developer Front-End</p>       
-      </InicialApresentation>
-    </Container>
+      <Navbar />
+      <Container>
+         {/* <Moon />
+        <Universe>
+              <Sun />
+        </Universe> */}
+        <SvgPrime />
+        <InicialApresentation>
+          {/* <p>Olá,</p>
+          <p>
+            Me Chamo Leandro da Silva
+            <br />
+          </p>
+          <p className="enfase">Front-End Develover</p> */}
+        </InicialApresentation> 
+      </Container>
     </>
   );
 };
